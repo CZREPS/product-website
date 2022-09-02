@@ -1,0 +1,732 @@
+/* MAIN COLLOR VARIABLES */
+:root {
+    --textcolor: #ffffff;
+    --texthighlight: #a0a0a0;
+    --backgroundcolor: #121212;
+    --darkerbackgroundcolor: #080808;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+    --bluetransparent: rgba(106, 87, 161, 0.685);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/*font import from local files */
+@font-face {
+    font-family: FutureLight;
+    src: url(../FONTS/NEON\ ABSOLUTE\ SANS1.ttf);
+}
+
+
+.pagecontent {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    height: 200px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, #121212 50%);
+    margin-top: 100px;
+}
+
+.space {
+    height: fit-content;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: var(--backgroundcolor);
+    background-image: url("../IMG/1920x.png");
+    background-repeat: no-repeat;
+    background-image: linear-gradient();  
+    background-size: stretch;
+    animation: AnimateBG 5s ease infinite;
+    transition: 0.2s;
+      }
+    /* animating the background */
+      @keyframes AnimateBG { 
+        0%{background-position:0% 50%}
+        25%{background-position: 50% 35%}
+        50%{background-position:100% 40%}
+        75%{background-position: 5% 45%}
+        100%{background-position:0% 50%}
+      }
+
+      @media (max-width: 800px) {
+        .space {
+            animation: none;
+            background: none;
+            background-color: var(--backgroundcolor);
+        }
+    }
+
+    /*part of parallax*/
+div.content-inner {
+    font-size: 13pt;
+    color: #333;
+    line-height: 1.40em;
+    padding: 50px 20px;
+    margin: 0px auto;
+    display: block;
+    
+}
+
+@media (max-width: 768px) {
+    div.content-inner {
+        width: 80%;
+        text-align: justify;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 595px) {
+    .space{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 550px) {
+    .space{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/*________________________________________________________________________________*/
+/*                              S C R O L L    B A R                              */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--backgroundcolor);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: var(--bluehighlight);
+    box-shadow:
+        0 0 7px rgb(0, 102, 255),
+        0 0 10px rgb(0, 153, 255),
+        0 0 21px rgb(12, 161, 247),
+        0 0 42px rgb(116, 225, 252),
+        0 0 82px rgb(109, 226, 255),
+        0 0 92px rgb(145, 229, 255),
+        0 0 102px rgb(155, 223, 255),
+        0 0 151px rgb(149, 225, 255);
+}
+/*________________________________________________________________________________*/
+/*                              N E O N   L O G O                                 */
+
+
+.neontext {
+    color: rgb(193, 246, 255);
+    animation: flicker 5s infinite alternate;
+    padding-top: 3%;
+    }
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 7px rgb(0, 4, 255),
+            0 0 10px rgb(30, 52, 248),
+            0 0 21px rgb(45, 76, 252),
+            0 0 42px rgb(116, 129, 252),
+            0 0 82px rgb(131, 118, 250),
+            0 0 92px rgb(145, 229, 255),
+            0 0 102px rgb(155, 223, 255),
+            0 0 151px rgb(149, 225, 255);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+.neon-wrapper {
+    box-shadow:
+    0 0 0.1vw  0.4vw #f8f7ff,   
+    0 0 0.4vw  0.6vw #8c72e9, 
+    0 0   4vw  0.4vw #330be5,
+    inset 0 0 1.5vw  0.4vw #0b1ae5,
+    inset 0 0 0.4vw  0.2vw #9272e9,
+    inset 0 0 0.5vw  0.2vw #f9f7ff;
+    border-radius: 1.5rem;
+    margin-left: 20em;
+    margin-right: 20em;
+    transition: 0.2s;
+  }
+
+
+
+.logo {
+    font-family: FutureLight;
+    font-weight: 200;
+    letter-spacing: 15px;
+    font-size: 5rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    align-items: center;
+    transition: 0.2s;
+}
+/* P A R A L L A X    L O G O    S C A L I N G */ 
+
+/*vím že to je strašný dělat to pomocí @media ale funguje to a lepší způsob mě nenapadl*/
+
+@media (max-width: 1900px) {
+    .logo{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 1700px) {
+    .logo{
+        font-size: 3em;
+    }
+    .neon-wrapper{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 1400px) {
+    .neon-wrapper{
+        margin-top: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media (max-width: 1200px) {
+    .neon-wrapper{
+        margin-top: 28%;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+@media (max-width: 1000px) {
+    .neon-wrapper{
+        margin-top: 32%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 900px) {
+    .neon-wrapper{
+        margin-top: 35%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+@media (max-width: 420px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 2em;
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+@media (max-width: 300px) {
+    .neon-wrapper{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo{
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+/*________________________________________________________________________________*/
+/*                                 𝗡 𝗔 𝗩 𝗕 𝗔 𝗥                                   */
+
+nav {
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.nav-links {
+    font-size: 1.5em;
+    align-items: center;
+    display: inline;
+    transition: 1s;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.active {
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+}
+
+.nav-link:hover{
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+@media (max-width: 1200px) {
+    .nav-links{
+        font-size: 1.5em;
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 810px) {
+    .nav-links{
+        font-size: 1.3em;
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 740px) {
+    .nav-links{
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 450px) {
+    .nav-links{
+        padding: 0px 0%;
+    }
+}
+@media (max-width: 420px) {
+    .nav-links{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+}
+@media (max-width: 380px) {
+    .nav-links{
+        text-align: center;
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 360px) {
+    .nav-links{
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+    }
+}
+@media (max-width: 300px) {
+    .nav-links{
+        padding: 0px 15%;
+        text-align: center;
+    }
+}
+
+/*________________________________________________________________________________*/
+/*                        J U M B O T R O N S                                     */
+
+.jumbospace{
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: 0.2s;
+    
+}
+
+/* Jumbotron flicker animation */
+@keyframes jumboflicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        box-shadow:
+        0 0 0.1vw  0.4vw #f8f7ff,   
+        0 0 0.4vw  0.6vw #8c72e9, 
+        0 0   4vw  0.4vw #330be5,
+        inset 0 0 1.5vw  0.4vw #0b1ae5,
+        inset 0 0 0.4vw  0.2vw #9272e9,
+        inset 0 0 0.5vw  0.2vw #f9f7ff;
+    }
+
+    20%,
+    24%,
+    55% {
+        box-shadow: none
+    }
+}
+
+/*----------------------MEDIUM JUMBOTRON--------------------------*/
+.jumbotron-m{
+    display: flex;
+    margin: 1%;
+    padding: 5%;
+    border-color: var(--bluehighlight);
+    border-radius: 15px;
+    border-width: 5px;
+    border: var(--blueday);
+    background-color: var(--backgroundcolor);
+    border-style: solid;
+    text-align: justify;
+    flex-basis: 35%;
+    min-height: 15em;
+    animation: jumboflicker 5s infinite alternate;
+    transition: 1s;
+}
+/*---------------------LARGE JUMBOTRON-------------------------------*/
+.jumbotron-l{
+    display: block;
+    margin: 1%;
+    padding: 5%;
+    margin-top: 2%;
+    border-color: var(--bluehighlight);
+    border-radius: 15px;
+    border-width: 5px;
+    border: var(--blueday);
+    background-color: var(--backgroundcolor);
+    border-style: solid;
+    text-align: justify;
+    flex-basis: 85%;
+    height: 15%;
+    animation: jumboflicker 5s infinite alternate;
+    transition: 0.2s;
+}
+
+.regular-text{
+    color: var(--textcolor) !important;
+}
+
+/*---------------------------- JUMBOTRON SIZING ------------------------*/
+@media (max-width: 800px) {
+    .jumbospace{
+        padding: 5%;
+        flex-direction: column;
+    }
+    .jumbotron-m
+    {
+        width: 90%;
+    }
+}
+/*________________________________________________________________________________*/
+/*                        HEADER AND TEXT PROPERTIES                              */
+h1{
+    color: var(--blueday);
+    text-shadow: 
+    0 0 7px rgb(0, 2, 110),
+    0 0 10px rgb(30, 52, 248);
+}
+h2{
+    color: var(--bluehighlight);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+}
+p{
+    color: var(--textcolor);
+}
+h4{
+    color: var(--textcolor);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    font-size: 1.5em;
+}
+/*________________________________________________________________________________*/
+/*                            SOURCES DIV PROPERTIES                              */
+.source{
+    color: var(--textcolor);
+    text-decoration: none;
+    padding: 0;
+}
+.source:before{
+    content: "• ";
+}
+.sources{
+    display: flex;
+    flex-direction: column;
+}
+.italics{
+    font-style:italic;
+    color: var(--texthighlight);
+}
+/*________________________________________________________________________________*/
+/*                                  A R R O W S                                   */
+.arrow{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid var(--bluehighlight);
+      border-right: 5px solid var(--bluehighlight);
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 3s infinite;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
+
+/*________________________________________________________________________________*/
+/*                                     FOOTER                                     */
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+  footer p{
+      color: var(--bluetransparent);
+      font-size: 0.8em;
+  }
+
+
+/*________________________________________________________________________________*/
+/*                          CONTACT FORM DIV PROPERTIES                           */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    color: var(--textcolor);
+    background-color: var(--darkerbackgroundcolor);
+    border-color: var(--backgroundcolor);
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--darkerbackgroundcolor);
+    color: var(--bluehighlight);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--darkerbackgroundcolor);
+  }
+
+  .container {
+    color: var(--textcolor);
+    text-shadow: 
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: start;
+  }
+  button{
+      background-color: var(--darkerbackgroundcolor);
+      color: var(--bluehighlight);
+      padding: 12px;
+      padding-left: 22px;
+      padding-right: 22px;
+      border-radius: 20px;
+      transition: 0.3s;
+  }
+  button:hover{
+    color: var(--textcolor);
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    box-shadow:  
+    0 0 0.1vw  0.1vw #f8f7ff, 
+    0 0 0.4vw  0.2vw #8c72e9, 
+    0 0   0.5vw  0.2vw #330be5;
+  }
+
+ /*________________________________________________________________________________*/
+/*                              MAIL.PHP SITE PROPERTIES                           */
+  .mail{
+      justify-content: center;
+      text-align: center;
+      padding: 5em;
+  }
+  .back{
+    background-color: var(--darkerbackgroundcolor);
+    color: var(--bluehighlight);
+    font-size: 2em;
+    padding: 2em;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .back-div{
+    margin: 6em;
+    margin-top: 9em;
+  }
+  .back:hover{
+    color: var(--textcolor);
+    text-shadow:
+    0 0 7px rgb(0, 4, 255),
+    0 0 10px rgb(30, 52, 248);
+    box-shadow:  
+    0 0 0.1vw  0.1vw #f8f7ff, 
+    0 0 0.4vw  0.2vw #8c72e9, 
+    0 0   0.5vw  0.2vw #330be5;
+  }
+
+ /*________________________________________________________________________________*/
+/*                                SHOP SITE PROPERTIES                             */
+
+  .cardspace{
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    transition: 0.5s;
+    
+}
+
+  .card-m{
+    display: flex;
+    margin: 1.2%;
+    padding: 4%;
+    border-color: var(--bluehighlight);
+    border-radius: 15px;
+    border-width: 5px;
+    border: var(--blueday);
+    background-color: var(--backgroundcolor);
+    border-style: solid;
+    text-align: center;
+    flex-basis: 22%;
+    min-width: 20%;
+    height: 15%;
+    flex-direction: column;
+    transition: 0.5s;
+    min-height: 32em;
+}
+
+
+.flicker{
+    animation: jumboflicker 5s infinite alternate;
+}
+
+.card-img{
+    margin: 0;
+    height: 10vw;
+    width: 14vw;
+    transition: 0.5s;
+}
+
+@media (max-width: 1350px) {
+    .card-m{
+        min-width: 35%;
+    }
+    .card-img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .card-m{
+        min-width: 90%;
+    }
+}
+
+/* -------------------SWITCH------------------ */
+/* Na finální stránce tento kód není použit,
+ měl sloužit jako styl pro tlačítko které vypínalo a zapínalo animace na stránce*/
+/*
+
+.anim_toggle{
+    font-size: 0.5em;
+    padding: 0.3em;
+    margin: 5px;
+    margin-top: 10px;
+    float:inline-start;
+    background-color: var(--backgroundcolor);
+    border: none;
+}
+
+*/
