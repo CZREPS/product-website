@@ -1,2 +1,2 @@
-# main-website
+# Main Website
 Main website
