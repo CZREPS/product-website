@@ -193,10 +193,11 @@ body {
 
       .pagecontent{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         margin-left: 10%;
         margin-right: 10%;
         flex-direction: row;
+        flex-wrap: wrap;
       }
       .product{
         margin-top: 15%;
@@ -207,7 +208,7 @@ body {
         width: 100%;
       }
       .product-images{
-        
+        padding-left: 0;
       }
 
       .other-pics {
@@ -217,12 +218,13 @@ body {
       }
       .low-img{
         width: 25%;
+        padding-right: 10px;
       }
 
       .product-name{
         white-space: nowrap;
         justify-content: left;
-        padding-left: px;
+        padding-top: 120px;
       }
       .barcode{
         position: relative;
@@ -240,15 +242,20 @@ body {
 
       h1 {
         font-family: HeaderNormal;
-        font-size: 120px;
+        font-size: 6.25vw;
         font-weight: 200;
         padding-bottom: 0;
       }
       h2 {
         font-family: HeaderBarcode;
-        font-size: 120px;
+        font-size: 6.25vw;
         font-weight: 300;
       }
+
+
+
+
+      /* DISCORD BUTTON */
       .button{
         margin-top: 20px;
         display: flex;
@@ -297,4 +304,36 @@ body {
       
       .btn-42:active {
         top: 2px;
+      }
+
+      @media (max-width: 1250px) {
+        .pagecontent{
+          margin-left: 5vw;
+          margin-right: 5vw;
+        }
+        .product{
+          justify-content: center;
+        }
+        .logo-size{
+          display: none;
+        }
+        .nav__links li {
+          padding: 0px 30px;
+        }
+        .logo{
+          margin-top: 10px;
+        }
+      }
+      @media (max-width: 800px) {
+      .product{
+        flex-direction: column;
+      }
+      .product-name{
+        padding-top: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .button{
+        display: block;
+      }
       }
