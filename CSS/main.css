@@ -365,3 +365,20 @@ body {
         display: block;
         }
       }
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*                         Products page                                                                               */
+/*---------------------------------------------------------------------------------------------------------------------*/      
+.products{
+  padding-left: 5%;
+  padding-right: 5%;
+  display:flex;
+  flex-direction: row;
+}
+.product-card{
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.product-img{
+  min-width: 400px;
+}
