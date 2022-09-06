@@ -19,6 +19,19 @@
     font-size: 16px;
 }
 
+@font-face {
+  font-family: HeaderNormal;
+  src: url(../Fonts/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+  font-family: HeaderBarcode;
+  src: url(../Fonts/LibreBarcode128Text-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../Fonts/open-sans.regular.ttf);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -200,7 +213,7 @@ body {
         flex-wrap: wrap;
       }
       .product{
-        margin-top: 15%;
+        margin-top: 15vh;
         display: flex;
         flex-direction: row;
       }
@@ -231,15 +244,10 @@ body {
         nav-up:200px
       }
 
-      @font-face {
-        font-family: HeaderNormal;
-        src: url(/Fonts/LibreBaskerville-Regular.ttf);
+      .text{
+        margin-top: 20vh;
+        margin-bottom: 20vh;
       }
-      @font-face {
-        font-family: HeaderBarcode;
-        src: url(/Fonts/LibreBarcode128Text-Regular.ttf);
-      }
-
       h1 {
         font-family: HeaderNormal;
         font-size: 6.25vw;
@@ -252,10 +260,17 @@ body {
         font-weight: 300;
       }
 
+      h3 {
+        font-family: HeaderNormal;
+        font-size: 1.5vw;
+        font-weight: 200;
+      }
+      p{
+        font-family: OpenSans;
+      }
 
 
-
-      /* DISCORD BUTTON */
+      /* -------------------DISCORD BUTTON------------------------------------- */
       .button{
         margin-top: 20px;
         display: flex;
