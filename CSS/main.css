@@ -250,7 +250,7 @@ body {
       }
       h1 {
         font-family: HeaderNormal;
-        font-size: 6.25vw;
+        font-size: 4vw;
         font-weight: 200;
         padding-bottom: 0;
       }
@@ -262,8 +262,9 @@ body {
 
       h3 {
         font-family: HeaderNormal;
-        font-size: 1.5vw;
+        font-size: 25px;
         font-weight: 200;
+        margin-top: 20px;
       }
       p{
         font-family: OpenSans;
@@ -340,15 +341,27 @@ body {
         }
       }
       @media (max-width: 800px) {
-      .product{
+        .product{
         flex-direction: column;
-      }
-      .product-name{
-        padding-top: 0;
-        display: flex;
-        justify-content: space-evenly;
-      }
-      .button{
+        }
+        .btn-42 {
+        z-index: 0;
+        }
+        .product-name{
+          padding-top: 0;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          align-content: space-between;
+          align-items: center;
+        }
+        h1{
+          font-size: 10vw;
+        }
+        h2{
+          font-size: 13vw;
+        }
+        .button{
         display: block;
-      }
+        }
       }
