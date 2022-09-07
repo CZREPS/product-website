@@ -373,6 +373,8 @@ body {
   padding-right: 5%;
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .product-card{
   min-width: 400px;
@@ -381,4 +383,17 @@ body {
 }
 .product-img{
   min-width: 400px;
+  max-width: 400px;
+}
+h4{
+  font-size: 32px;
+  font-family: OpenSans;
+  font-weight: 200;
+  text-align: center;
+}
+h5{
+  font-family: HeaderNormal;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
 }
