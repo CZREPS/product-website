@@ -127,6 +127,11 @@ body {
         background-color: var(--textcolor);
         color: var(--backgroundcolor);
         margin-left: 1rem;
+        padding: 9px 25px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
       }
       
       .menu:hover{
@@ -176,6 +181,7 @@ body {
         font-size: 60px;
         color: var(--texthighlight);
       }
+
       
       @media screen and (max-height: 450px) {
         .overlay a {
@@ -194,7 +200,7 @@ body {
           display: none;
         }
         .menu {
-          display: initial;
+          display: inline-block;
           margin-right: 10px;
         }
         header{
@@ -348,6 +354,7 @@ body {
         z-index: 0;
         }
         .product-name{
+          margin-top: 30px;
           padding-top: 0;
           display: flex;
           justify-content: space-evenly;
