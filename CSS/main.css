@@ -194,7 +194,7 @@ body {
       }
     }
     
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 800px) {
       .nav__links,
       .cta {
         display: none;
@@ -347,7 +347,7 @@ body {
         margin-top: 10px;
       }
     }
-    @media (max-width: 850px) {
+    @media (max-width: 800px) {
       .product{
       flex-direction: column;
       }
