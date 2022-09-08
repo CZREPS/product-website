@@ -260,11 +260,6 @@ body {
       padding-top: 120px;
       margin-left: 30px;
     }
-    .barcode{
-      position: relative;
-      nav-up:200px
-    }
-
     .text{
       margin-top: 20vh;
       margin-bottom: 20vh;
@@ -426,7 +421,7 @@ h5{
 .banner {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
+  width: auto;
 }
 .nazev-kategorie{
   margin-left: 5%;
