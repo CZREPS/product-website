@@ -208,7 +208,7 @@ body {
       }
     }
     
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 840px) {
       .nav__links,
       .cta {
         display: none;
@@ -396,14 +396,13 @@ body {
   margin-bottom: 5%;
 }
 .product-card{
-  min-width: 400px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .product-pic{
-  min-width: 400px;
   max-width: 400px;
 }
 h4{
@@ -434,6 +433,22 @@ h5{
   margin-right: 5%;
   margin-bottom: 5%;
 }
+
+@media screen and (max-width: 480px) {
+  .product-card{
+    max-width: 250px;
+  }
+  .product-pic {
+    max-width: 250px;
+  }
+}
+
+
+
+
+
+
+
 .zpet{
   margin-left: 5%;
   margin-top: 3%;
