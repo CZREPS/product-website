@@ -1,0 +1,433 @@
+
+:root {
+    --textcolor: #000000;
+    --texthighlight: #171717;
+    --backgroundcolor: #ffffff;
+    --darkerbackgroundcolor: #bdbdbd;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+    --bluetransparent: rgba(106, 87, 161, 0.685);
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+  }
+  
+  @font-face {
+  font-family: HeaderNormal;
+  src: url(../Fonts/LibreBaskerville-Regular.ttf);
+  }
+  @font-face {
+  font-family: HeaderBarcode;
+  src: url(../Fonts/LibreBarcode128Text-Regular.ttf);
+  }
+  @font-face {
+  font-family: OpenSans;
+  src: url(../Fonts/open-sans.regular.ttf);
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  /* -----------------------NAVBAR----------------------- */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        padding-top: 0;
+      }
+      
+      .logo {
+        cursor: pointer;
+        justify-content: flex-end;
+      }
+      .logo-size{
+        margin-left: auto;
+      }
+      .discord_logo {
+        width: 300px;
+        height: 70px;
+        border-radius: 5px;
+        background: url("../IMG/discord.png") no-repeat;
+        background-size: cover;
+        transition: 0.3s ease;
+      }
+      .discord_logo:hover {
+        width: 350px;
+            transition: 0.3s ease;
+      }
+      
+      .nav__links a,
+      .cta,
+      .overlay__content a {
+        font-size: 24px;
+        font-family: 'Archivo', sans-serif;
+        font-weight: 900;
+        color: var(--textcolor);
+        text-decoration: none;
+        float: left;
+        float: inline-start;
+      }
+      
+      .nav__links {
+        float: left;
+        float: inline-start;
+        list-style: none;
+        display: flex;
+      }
+      
+      .nav__links li {
+        padding: 0px 40px;
+      }
+      
+      .nav__links li a {
+        transition: 0.3s ease;
+      }
+      
+      .nav__links-active{
+        color: var(--texthighlight);
+        text-decoration: underline;
+        text-shadow: var(--textcolor);
+        font-size: 28px;
+      }
+  
+      .nav__links li a:hover {
+        color: var(--texthighlight);
+        text-decoration: underline;
+        text-shadow: var(--textcolor);
+        font-size: 28px;
+        transition: 0.3s ease;
+      }
+      
+      .cta {
+        padding: 9px 25px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.3s ease ;
+      }
+      
+      .cta:hover {
+        color: var(--texthighlight);
+        text-decoration: underline;
+        text-shadow: var(--textcolor);
+        font-size: 28px;
+        transition: 0.3s ease;
+      }
+      
+      /* Mobile Nav */
+      
+      .menu {
+        display: none;
+        background-color: var(--textcolor);
+        color: var(--backgroundcolor);
+        margin-left: 1rem;
+        padding: 9px 25px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease 0s;
+      }
+      
+      .menu:hover{
+        color: var(--backgroundcolor);
+      }
+  
+      .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: var(--darkerbackgroundcolor);
+        overflow-x: hidden;
+        transition: width 0.5s ease 0s;
+      }
+      
+      .overlay--active {
+        width: 100%;
+      }
+      
+      .overlay__content {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .overlay a {
+        padding: 15px;
+        font-size: 36px;
+        display: block;
+        transition: color 0.3s ease 0s;
+      }
+      
+      .overlay a:hover,
+      .overlay a:focus {
+        color: var(--texthighlight);
+        cursor: pointer;
+      }
+      .overlay .close {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+        color: var(--texthighlight);
+      }
+  
+      
+      @media screen and (max-height: 450px) {
+        .overlay a {
+          font-size: 20px;
+        }
+        .overlay .close {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+        }
+      }
+      
+      @media only screen and (max-width: 800px) {
+        .nav__links,
+        .cta {
+          display: none;
+        }
+        .menu {
+          display: inline-block;
+          margin-right: 10px;
+        }
+        header{
+            justify-content: space-between;
+            padding: 10px;
+        }
+      }
+/*==========================================================*/
+.banner{
+    width: 100%;
+    height: 75vh;
+    display: block;
+    background-color: cyan;
+}
+.banner-text{
+
+}
+
+/*=============================================================*/
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn41-43 {
+    padding: 15px 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: var(--textcolor);
+    outline: none !important;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.75s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:0 0 5px #888888;
+  }
+  
+  .btn-42 {
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 1;
+    color: var(--backgroundcolor);
+  }
+  
+  .btn-42:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.75s ease;
+  }
+  
+  .btn-42:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn-42:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  
+  .btn-42:active {
+    top: 2px;
+  }
+
+  @media (max-width: 1250px) {
+    .pagecontent{
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    .product{
+      justify-content: center;
+    }
+    .logo-size{
+      display: none;
+    }
+    .nav__links li {
+      padding: 0px 30px;
+    }
+    .logo{
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 800px) {
+    .product{
+    flex-direction: column;
+    }
+    .btn-42 {
+    z-index: 0;
+    }
+    .product-name{
+      margin-top: 30px;
+      padding-top: 0;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-content: space-between;
+      align-items: center;
+      margin-left: 0;
+    }
+    h1{
+      font-size: 10vw;
+    }
+    h2{
+      font-size: 13vw;
+    }
+    .button{
+    display: block;
+    }
+  }
+/*=============================================================*/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    transform-style: preserve-3d;
+    border-top: solid #000 2px;
+  }
+  .container .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    transform-style: preserve-3d;
+  }
+  
+  .container .box:hover::before,
+  .container .box:hover::after{
+    opacity: 0.4;
+  }
+  .container .box .name{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    color: var(--textcolor);
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.75s;
+    opacity: 1;
+    z-index: 10;
+  }
+  .container .box:hover .name{
+    top: 60px;
+  }
+  .container .box::before{
+    content: 'AIR JORDAN 1 LOW';
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--textcolor);
+    transition: 0.75s;
+    opacity: 0;
+  }
+  .container .box:hover::before{
+    opacity: 0.5;
+  }
+  .container .box .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    background: #000;
+    padding: 10px 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.75s;
+    opacity: 0;
+    z-index: 10;
+  }
+  .container .box:hover .buy{
+    bottom: 30px;
+    opacity: 1;
+  }
+  .container .box .circle{
+    position: absolute;
+    top: 199px;
+    left: 50%;
+    transition: 0.75s;
+    transform-style: preserve-3d;
+    z-index: 10;
+    transform: translate3d(-50%,-50%,50px);
+  }
+  .container .box .circle img{
+    height: 300px;
+    opacity: 0;
+    transition: 0.75s;
+  }
+  .container .box:hover .circle img{
+    opacity: 0.75;
+  }
+  .container .box .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    transition: 0.75s;
+    z-index: 11;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,50px) rotate(-15deg);
+  }
+  .container .box:hover .product{
+    transform: translate3d(-50%,-50%,100px) rotate(-15deg);
+  }
+  .container .box:nth-child() .circle{
+  }
