@@ -22,7 +22,8 @@
 ## Matýsek:
 ##### LOW
 - [ ] Opravit responzivitu na Air Jordan 1 Low (od asi 410px se rozbíjí stránka)
-##### High
+- [ ] Předělat thumbnail na Black White Grey Low !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ Př##### High
 - [ ] udělat takovej ten text na pozadí na high stránce (nový css, stejný jen přepsanej content)
 - [ ] Banner pro main stránku Air Jordan High
 - [ ] Ostřižený fotky na Jordan High stránku
