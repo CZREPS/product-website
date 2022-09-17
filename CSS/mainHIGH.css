@@ -426,7 +426,7 @@ p{
     flex-wrap: wrap;
     width: 100%;
     transform-style: preserve-3d;
-    padding: 0 3%;
+    padding: 0 2%;
   }
   .container .box{
     position: relative;
