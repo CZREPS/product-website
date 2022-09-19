@@ -2,12 +2,14 @@
 ## Saša:
 ##### Obecně
 - [ ] Lepší formát textu u jednotlivých bot
-- [ ] Napsat texty u HIGH bot a dunků
-- [ ] Barvy Textu pro Highe a Dunks
+- [x] Napsat texty u HIGH bot
+- [x] Barvy Textu pro Highe
 ##### DUNK
-- [ ] Nalinkovat Dunk stránky
-- [ ] Barvy blobů DUNK
-- [ ] Názvy DUNK bot zkontrolovat a opravit
+- [ ] Dunk blobové
+- [x] Dunk Main stránka
+- [ ] Text a barvy textu pro Dunks
+
+
 
 ## Tomáš
 ##### Main Web Page (index.html)
@@ -18,6 +20,8 @@
 - rozcestník na všechny typy bot co nabízíme
 ##### obleceni.html
 - [X] Zatím není potřeba protože nemáme hadry 
+
+
 
 ## Matýsek:
 ##### LOW
@@ -32,3 +36,4 @@
 - [ ] Ostřižený fotky na DUNK stránku
 - [ ] Dunk Main Site struktura
 - [ ] Linknout dunk fotky
+- [ ] Fixnout Nike Dunk text v pozadí při najetí na botu (mainDunk.css)

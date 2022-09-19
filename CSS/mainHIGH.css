@@ -17,33 +17,6 @@
   --bluetransparent: rgba(106, 87, 161, 0.685);
   font-family: 'Archivo', sans-serif;
   font-size: 16px;
-
-  --bwg: #121315; 
-  --bleached:#9c7b76;
-  --blue:#18a4d9;
-  --GuavaIce:#3a3a3c;
-  --Denim:#3a3a3c; 
-  --Emerald:#01afb3; 
-  --LightSmokeGrey:#5c5c5e; 
-  --GymRed:#a2333b;  
-  --InsideOutCream:#b08572; 
-  --Mocha:#6a3c33; 
-  --MultiColor:#37a26e; 
-  --Paint:#a58584; 
-  --Paris:#707580; 
-  --Purple:#40355c; 
-  --Red:#80132a; 
-  --ShadowToe:#3a3a3c; 
-  --Starfish:#db3218; 
-  --Taxi:#e29b01; 
-  --TSFragment:#ab946d; 
-  --TSMocha:#6b5641; 
-  --VintageBlack:#343235; 
-  --VintageGrey:#3a3a3c; 
-  --white: #121315; 
-  --UniversityRed:#831e29; 
-  --WolfGrey: #a3a2a0; 
-  --YelowStrike:#e29b01; 
 }
   
   @font-face {
