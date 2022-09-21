@@ -5,7 +5,7 @@
 - [x] Napsat texty u HIGH bot
 - [x] Barvy Textu pro Highe
 ##### DUNK
-- [ ] Dunk blobové
+- [x] Dunk blobové
 - [x] Dunk Main stránka
 - [ ] Text a barvy textu pro Dunks
 
