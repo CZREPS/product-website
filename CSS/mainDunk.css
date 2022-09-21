@@ -430,7 +430,7 @@ p{
     top: 60px;
   }
   .container .box::before{
-    content: 'AIR JORDAN 1 HIGH';
+    content: 'NIKE DUNK';
     position: absolute;
     top: 20%;
     text-align: center;
@@ -590,9 +590,6 @@ p{
     padding-top: 2%;
     justify-items: center;
     justify-content: center;
-  }
-  .footer-logo{
-
   }
 
   .footer-discord {

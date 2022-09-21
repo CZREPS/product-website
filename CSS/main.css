@@ -18,6 +18,7 @@
   font-family: 'Archivo', sans-serif;
   font-size: 16px;
 
+  /*LOW TEXT BARVY*/
   --bwg: #121315; 
   --bleached:#9c7b76;
   --blue:#18a4d9;
@@ -44,6 +45,36 @@
   --UniversityRed:#831e29; 
   --WolfGrey: #a3a2a0; 
   --YelowStrike:#e29b01; 
+
+  /*HIGH TEXT BARVY*/
+  --atmo:#979292;
+  --berry:#461a37;
+  --bloodline:#242023;
+  --bordeaux:#532d39;
+  --bredToe:#933740;
+  --brotherhood:#d6910e;
+  --crimsonTint:#d4b49f;
+  --DarkMarinaBlue:#193f66;
+  --BlackGymRed:#732932;
+  --heritage:#720e1a;
+  --DarkMocha:#605a54;
+  --NeutralGrey:#121315;
+  --OGStealth:#41454a;
+  --ParisHigh:#8f8d89;
+  --PatentBred:#a2010e;
+  --PatentChicago:#9d173a;
+  --Pollen:#d59941;
+  --PurpleHigh:#463c83;
+  --RetroRoyal:#25518e;
+  --ShadowToe:#565553;
+  --Shattered:#a35129;
+  --SpiderMan:#b52d3a;
+  --StageHaze:#575758;
+  --TsMochaHigh:#64544b;
+  --TurboGreen:#678586;
+  --VarsityRed:#a0222b;
+  --Visionaire:#a3be67;
+  --YellowToe:#e29816;
 }
   
   @font-face {
@@ -618,9 +649,6 @@ p{
     justify-items: center;
     justify-content: center;
   }
-  .footer-logo{
-
-  }
 
   .footer-discord {
     width: 300px;
@@ -669,6 +697,7 @@ p{
   }
   /*--------------------BARVY-------------------------*/
 
+  /*LOW*/
   .shoe-barva-1 {
     color:var(--bwg)
   }
@@ -746,4 +775,90 @@ p{
   }
   .shoe-barva-26 {
     color:var(--YelowStrike)
+  }
+
+  /*HIGH*/
+  .shoe-barva-30 {
+    color:var(--atmo)
+  }
+  .shoe-barva-31 {
+    color:var(--berry)
+  }
+  .shoe-barva-32 {
+    color:var(--bloodline)
+  }
+  .shoe-barva-33 {
+    color:var(--bordeaux)
+  }
+  .shoe-barva-34 {
+    color:var(--bredToe)
+  }
+  .shoe-barva-35 {
+    color:var(--brotherhood)
+  }
+  .shoe-barva-36 {
+    color:var(--crimsonTint)
+  }
+  .shoe-barva-37 {
+    color:var(--DarkMarinaBlue)
+  }
+  .shoe-barva-38 {
+    color:var(--BlackGymRed)
+  }
+  .shoe-barva-39 {
+    color:var(--heritage)
+  }
+  .shoe-barva-40 {
+    color:var(--Mocha)
+  }
+  .shoe-barva-41 {
+    color:var(--NeutralGrey)
+  }
+  .shoe-barva-42 {
+    color:var(--OGStealth)
+  }
+  .shoe-barva-43 {
+    color:var(--ParisHigh)
+  }
+  .shoe-barva-44 {
+    color:var(--PatentBred)
+  }
+  .shoe-barva-45 {
+    color:var(--PatentChicago)
+  }
+  .shoe-barva-46 {
+    color:var(--Pollen)
+  }
+  .shoe-barva-47 {
+    color:var(--PurpleHigh)
+  }
+  .shoe-barva-48 {
+    color:var(--RetroRoyal)
+  }
+  .shoe-barva-49 {
+    color:var(--ShadowToe)
+  }
+  .shoe-barva-50 {
+    color:var(--Shattered)
+  }
+  .shoe-barva-51 {
+    color:var(--SpiderMan)
+  }
+  .shoe-barva-52 {
+    color:var(--StageHaze)
+  }
+  .shoe-barva-53 {
+    color:var(--TsMochaHigh)
+  }
+  .shoe-barva-54 {
+    color:var(--TurboGreen)
+  }
+  .shoe-barva-55 {
+    color:var(--VarsityRed)
+  }
+  .shoe-barva-56 {
+    color:var(--Visionaire)
+  }
+  .shoe-barva-57 {
+    color:var(--YellowToe)
   }
