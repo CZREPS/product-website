@@ -8,7 +8,6 @@
 - [x] Dunk blobové
 - [x] Dunk Main stránka
 - [ ] Text a barvy textu pro Dunks
-- [ ] Š I P K Y    Z P Ě T    N A    V Š E C H N Y    B O T Y   D U N K
 - [ ] Názvy bot DUNK
 
 
