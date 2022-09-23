@@ -6,8 +6,10 @@
 - [x] Barvy Textu pro Highe
 ##### DUNK
 - [ ] Dunk blobové
-- [x] Dunk Main stránka
+- [x] Dunk Main stránka *nemáš to hotový co to odškrtáváš*
 - [ ] Text a barvy textu pro Dunks
+- [ ] Š I P K Y    Z P Ě T    N A    V Š E C H N Y    B O T Y   D U N K
+- [ ] Názvy bot DUNK
 
 
 
