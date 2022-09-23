@@ -36,6 +36,7 @@
 - [ ] Doplnit 4 chybějící highe - vytvořit jim stránku (prolinkovat fotky a dát název), udělat pro ně thumbnail na AJ-high.html a pak napsat Sašovi aby je dodělal (texty,bloby apod.)
 ##### Dunk
 - [ ] Banner pro main stránku DUNK
+- [ ] **Udělat template na web pro jednoduché použivtí a maximánlí univerzálnost**
 - [ ] Ostřižený fotky na DUNK stránku
 - [ ] Dunk Main Site struktura
 - [ ] Linknout dunk fotky
