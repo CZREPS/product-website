@@ -30,6 +30,7 @@
 
 
 ## Matýsek:
+- [ ] Text o nás na web (Figma)
 ##### LOW
 - [X] Opravit responzivitu na Air Jordan 1 Low (od asi 410px se rozbíjí stránka)
 - [X] Předělat thumbnail na Black White Grey Low !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
