@@ -5,13 +5,8 @@
 - [x] Napsat texty u HIGH bot
 - [x] Barvy Textu pro Highe
 ##### DUNK
-<<<<<<< HEAD
 - [ ] Dunk blobové
 - [x] Dunk Main stránka *nemáš to hotový co to odškrtáváš*
-=======
-- [x] Dunk blobové
-- [x] Dunk Main stránka
->>>>>>> b24e999c2bb95d52f9d9fb10762b6f3bade521e0
 - [ ] Text a barvy textu pro Dunks
 - [ ] Š I P K Y    Z P Ě T    N A    V Š E C H N Y    B O T Y   D U N K
 - [ ] Názvy bot DUNK
@@ -40,8 +35,8 @@
 - [X] Ostřižený fotky na Jordan High stránku
 - [ ] Doplnit 4 chybějící highe - vytvořit jim stránku (prolinkovat fotky a dát název), udělat pro ně thumbnail na AJ-high.html a pak napsat Sašovi aby je dodělal (texty,bloby apod.)
 ##### Dunk
-- [ ] Banner pro main stránku DUNK
-- [ ] Ostřižený fotky na DUNK stránku
-- [ ] Dunk Main Site struktura
-- [ ] Linknout dunk fotky
-- [ ] Fixnout Nike Dunk text v pozadí při najetí na botu (mainDunk.css)
+- [X] Banner pro main stránku DUNK
+- [X] Ostřižený fotky na DUNK stránku
+- [X] Dunk Main Site struktura
+- [X] Linknout dunk fotky
+- [X] Fixnout Nike Dunk text v pozadí při najetí na botu (mainDunk.css)
