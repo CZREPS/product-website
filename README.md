@@ -5,10 +5,14 @@
 - [x] Napsat texty u HIGH bot
 - [x] Barvy Textu pro Highe
 ##### DUNK
+<<<<<<< HEAD
 - [ ] Dunk blobové
 - [x] Dunk Main stránka *nemáš to hotový co to odškrtáváš*
+=======
+- [x] Dunk blobové
+- [x] Dunk Main stránka
+>>>>>>> b24e999c2bb95d52f9d9fb10762b6f3bade521e0
 - [ ] Text a barvy textu pro Dunks
-- [ ] Š I P K Y    Z P Ě T    N A    V Š E C H N Y    B O T Y   D U N K
 - [ ] Názvy bot DUNK
 
 
