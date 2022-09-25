@@ -28,9 +28,11 @@
 - [ ] Text o nás na web (Figma)
 ##### LOW
 - [X] Opravit responzivitu na Air Jordan 1 Low (od asi 410px se rozbíjí stránka)
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 - [ ] Předělat thumbnail na Black White Grey Low, White Black Dunk
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ##### High
 - [X] udělat takovej ten text na pozadí na high stránce (nový css, stejný jen přepsanej content)
 - [X] Banner pro main stránku Air Jordan High
