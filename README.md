@@ -2,16 +2,11 @@
 ## Saša:
 ##### Obecně
 - [ ] Lepší formát textu u jednotlivých bot
-- [x] Napsat texty u HIGH bot
-- [x] Barvy Textu pro Highe
+- [X] Napsat texty u HIGH bot
+- [X] Barvy Textu pro Highe
 ##### DUNK
-<<<<<<< HEAD
-- [ ] Dunk blobové
-- [x] Dunk Main stránka *nemáš to hotový co to odškrtáváš*
-=======
-- [x] Dunk blobové
+- [X] Dunk blobové
 - [x] Dunk Main stránka
->>>>>>> b24e999c2bb95d52f9d9fb10762b6f3bade521e0
 - [ ] Text a barvy textu pro Dunks
 - [ ] Názvy bot DUNK
 
@@ -33,7 +28,9 @@
 - [ ] Text o nás na web (Figma)
 ##### LOW
 - [X] Opravit responzivitu na Air Jordan 1 Low (od asi 410px se rozbíjí stránka)
-- [X] Předělat thumbnail na Black White Grey Low !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- [ ] Předělat thumbnail na Black White Grey Low, White Black Dunk
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ##### High
 - [X] udělat takovej ten text na pozadí na high stránce (nový css, stejný jen přepsanej content)
 - [X] Banner pro main stránku Air Jordan High
