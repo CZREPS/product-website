@@ -20,11 +20,97 @@
     <title>ＳＮＫＥＲＳ👟</title>
 </head>
 <body>
-    <a href="AJ-LOW-1.html" style="font-size: 1945%; color: black;">AJ-LOW</a>
-    <br>
-    <a href="AJ-HIGH.html" style="font-size: 1945%; color: black;">AJ-HIGH</a>
-    <br>
-    <a href="Nike-Dunk.html" style="font-size: 1945%; color: black;">Nike Dunk</a>
+    <header>
+        <a class="logo" href="/"><img src="IMG/logo.png" alt="logo" height="50"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a class="nav__links-active" href="tenisky.html">Tenisky</a></li>
+                <li><a href="obleceni.html">Oblečení</a></li>
+                <li><a href="brands.html">Značky</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="contact.html">Kontakt</a>
+        <div class="logo-size">
+            <a href="https://discord.gg/XfzsV3gW7w" target="_blank">
+                <div class="discord_logo"></div>
+            </a>
+        </div>
+        <button class="fa fa-bars hamburger menu"></button>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="tenisky.html">Tenisky</a>
+            <a href="obleceni.html">Oblečení</a>
+            <a href="brands.html">Značky</a>
+            <a href="contact.html">Kontakt</a>
+        </div>
+    </div>
+    <section class="section">
+        <div class="slider">
+            <div class="slide">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="st first">
+                    <img alt="Fotka banneru - Nike Air Jordan 1 LOW" src="IMG/Banners/650pLOW.png">
+                </div>
+
+                <div class="st">
+                    <img alt="Fotka banneru - Nike Air Jordan 1 HIGH" src="IMG/Banners/650pHIGH.png">
+                </div>
+
+                <div class="st">
+                    <img alt="Fotka banneru - Nike Dunk" src="IMG/Banners/ChunkyDunkyBanner.png">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                </div>
+                <div class="nav-m">
+                    <label for="radio1" class="m-btn"></label>
+                    <label for="radio2" class="m-btn"></label>
+                    <label for="radio3" class="m-btn"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="nazev-kategorie">Nově vydáno</h1>
+    <p class="podtext">
+        Zde najdete nově vydanou obuv, včetně bot které připravujeme.
+    </p>
+
+        <div class="horizontal-scroll">
+            <div class="horiz-box">
+                <img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka">
+            </div>
+            <div class="horiz-box">
+                <img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka">
+            </div>
+            <div class="horiz-box">
+                <img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka">
+            </div>
+            <div class="horiz-box">
+                <img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka">
+            </div>
+            <div class="horiz-box">
+                <img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka">
+            </div>
+
+
+
+            <!--<div class="horiz-box">
+                <a href="--------" class="horiz-name">NAZEV</a>
+                <div class="horiz-box-blob" ><img src="IMG/ShoeProduct/blob-Black.svg" alt="BLOB"></div>
+                <a href="--------" class="horiz-box-odkaz"><img src="IMG/Air1Jordan-Thumbnails/Bleached.webp" class="horiz-box-fotka"></a>
+            </div>-->
+        </div>
+
+
     <div class="mezera"></div>
 
 
@@ -61,5 +147,16 @@
             </a>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter > 3){
+                counter = 1;
+            }
+        },9000);
+    </script>
 </body>
 </html>

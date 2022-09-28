@@ -44,3 +44,4 @@
 - [X] Dunk Main Site struktura
 - [X] Linknout dunk fotky
 - [X] Fixnout Nike Dunk text v pozadí při najetí na botu (mainDunk.css)
+- [ ] POSUNOUT BLOBA NA CHUNKY DUNKY ABY NEPŘEKÁŽEL TEČKÁM A PAK TO SPRÁVNĚ PROLINKOVAT- DĚKUJI PŘÍTELI
