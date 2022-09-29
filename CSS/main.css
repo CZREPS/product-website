@@ -437,7 +437,7 @@ p{
       margin-left: 0;
     }
     h1{
-      font-size: 10vw;
+      font-size: 8vw;
     }
     h2{
       font-size: 13vw;
@@ -594,6 +594,118 @@ p{
   .mezera {
     height: 20vh;
   }
+
+
+/*--------------------TENISKY BANNER SLIDER-------------------------*/
+.section {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slide {
+  width: 500%;
+  display: flex;
+}
+.slide input {
+  display: none;
+}
+.st {
+  width: 20%;
+  transition: 1.4s ease-in-out;
+}
+.st img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.nav-m {
+  position: absolute;
+  padding-top: 30%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.m-btn {
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.m-btn:not(:last-child) {
+  margin-right: 30px;
+}
+.m-btn:hover {
+  background-color: black;
+}
+#radio1:checked ~.first {
+  margin-left: 0;
+}
+#radio2:checked ~.first {
+  margin-left: -20%;
+}
+#radio3:checked ~.first {
+  margin-left: -40%;
+}
+.nav-auto {
+  position: absolute;
+  padding-top: 30%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.nav-auto div {
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+.nav-auto div:not(:last-child){
+  margin-right: 30px;
+  justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+  background-color: black;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+  background-color: black;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+  background-color: black;
+}
+
+
+/*--------------------HORIZONTAL SCROLL-------------------------*/
+.horizontal-scroll {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.horiz-box-fotka {
+  display: inline;
+  width: 400px;
+  height: auto;
+  margin: 0px 20px;
+}
+
+.horiz-box {
+  display: inline;
+  margin: 50px 0;
+}
+
+
 
 /*--------------------SIPKA ZPET-------------------------*/
   .zpet{
