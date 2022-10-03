@@ -12,6 +12,7 @@
 - [x] Dunk Main stránka
 - [ ] Text a barvy textu pro Dunks
 - [ ] Názvy bot DUNK
+- [ ] Přidat javascript na mobile do tenisky.html
 
 
 
