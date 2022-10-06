@@ -52,7 +52,6 @@
         align-items: center;
         justify-content: flex-start;
         padding: 10px;
-        padding-top: 0;
         background-color: var(--backgroundcolor);
       }
       
@@ -60,24 +59,8 @@
         cursor: pointer;
         justify-content: flex-end;
       }
-      .logo-size{
-        margin-left: auto;
-      }
-      .discord_logo {
-        width: 300px;
-        height: 70px;
-        border-radius: 5px;
-        background: url("../IMG/discord.png") no-repeat;
-        background-size: cover;
-        transition: 0.3s ease;
-      }
-      .discord_logo:hover {
-        width: 350px;
-            transition: 0.3s ease;
-      }
       
       .nav__links a,
-      .cta,
       .overlay__content a {
         font-size: 24px;
         font-family: 'Archivo', sans-serif;
@@ -117,21 +100,30 @@
         font-size: 28px;
         transition: 0.3s ease;
       }
-      
-      .cta {
-        padding: 9px 25px;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: 0.3s ease ;
+
+      .login-link {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
       }
-      
-      .cta:hover {
-        color: var(--texthighlight);
+
+      .login-link a {
+        font-size: 22px;
+        color: rgb(131, 128, 128);
+        text-decoration: none;
+        margin-right: 8px;
+        transition: 0.2s;
+      }
+      .login-lock {
+      width: 23px;
+      }
+
+      .login-link a:hover {
         text-decoration: underline;
-        text-shadow: var(--textcolor);
-        font-size: 28px;
-        transition: 0.3s ease;
+        font-size: 23px;
+        transition: 0.2s;
       }
       
       /* Mobile Nav */
@@ -183,9 +175,14 @@
         transition: color 0.3s ease 0s;
       }
       
+      .overlay a:last-child {
+        margin-top: 30px;
+        color: #666565;
+        text-decoration: underline;
+      }
+      
       .overlay a:hover,
       .overlay a:focus {
-        color: var(--texthighlight);
         cursor: pointer;
       }
       .overlay .close {
@@ -208,9 +205,12 @@
         }
       }
       
-      @media only screen and (max-width: 828px) {
-        .nav__links,
-        .cta {
+      @media only screen and (max-width: 950px) {
+        .nav__links
+         {
+          display: none;
+        }
+        .login-link {
           display: none;
         }
         .menu {
@@ -351,9 +351,6 @@ p{
     .product{
       justify-content: center;
     }
-    .logo-size{
-      display: none;
-    }
     .nav__links li {
       padding: 0px 30px;
     }
@@ -361,6 +358,22 @@ p{
       margin-top: 10px;
     }
   }
+
+  @media (max-width: 1120px) {
+    .nav__links a {
+      font-size: 20px;
+    }
+    .nav__links li a:hover {
+      font-size: 24px;
+    }
+    .login-link a {
+      font-size: 18px;
+    }
+    .login-link a:hover {
+      font-size: 19px;
+    }
+  }
+
   @media (max-width: 800px) {
     .product{
     flex-direction: column;
@@ -591,9 +604,6 @@ p{
     justify-items: center;
     justify-content: center;
   }
-  .footer-logo{
-
-  }
 
   .footer-discord {
     width: 300px;
@@ -639,84 +649,4 @@ p{
       font-size: 15px;
     }
     .footer-link{font-size: 12px;}
-  }
-  /*--------------------BARVY-------------------------*/
-
-  .shoe-barva-1 {
-    color:var(--bwg)
-  }
-    .shoe-barva-2 {
-    color:var(--bleached)
-  }
-  .shoe-barva-3 {
-    color:var(--blue)
-  }
-  .shoe-barva-4 {
-    color:var(--GuavaIce)
-  }
-  .shoe-barva-5 {
-    color:var(--Denim)
-  }
-  .shoe-barva-6 {
-    color:var(--Emerald)
-  }
-  .shoe-barva-7 {
-    color:var(--LightSmokeGrey)
-  }
-  .shoe-barva-8 {
-    color:var(--GymRed)
-  }
-  .shoe-barva-9 {
-    color:var(--InsideOutCream)
-  }
-  .shoe-barva-10 {
-    color:var(--Mocha)
-  }
-  .shoe-barva-11 {
-    color:var(--MultiColor)
-  }
-  .shoe-barva-12 {
-    color:var(--Paint)
-  }
-  .shoe-barva-13 {
-    color:var(--Paris)
-  }
-  .shoe-barva-14 {
-    color:var(--Purple)
-  }
-  .shoe-barva-15 {
-    color:var(--Red)
-  }
-  .shoe-barva-16 {
-    color:var(--)var(--ShadowToe)
-  }
-  .shoe-barva-17 {
-    color:var(--Starfish)
-  }
-  .shoe-barva-18 {
-    color:var(--Taxi)
-  }
-  .shoe-barva-19 {
-    color:var(--TSFragment)
-  }
-  .shoe-barva-20 {
-    color:var(--TSMocha)
-  }
-  .shoe-barva-21 {
-    color:var(--VintageBlack)
-  }
-  .shoe-barva-22 {
-    color:var(--VintageGrey)
-  }
-  .shoe-barva-23 {
-    color:var(--white)
-  }
-  .shoe-barva-24 {
-    color:var(--UniversityRed)
-  }
-  .shoe-barva-25 {
-    color:var(--WolfGrey)
-  }
-  .shoe-barva-26 {
-    color:var(--YelowStrike)
   }

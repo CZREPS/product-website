@@ -6,8 +6,6 @@
 - [X] Barvy Textu pro Highe
 - [ ] *Roman*
 ##### DUNK
-- [ ] Dunk blobové
-- [x] Dunk Main stránka
 - [x] Dunk blobové
 - [x] Dunk Main stránka
 - [ ] Text a barvy textu pro Dunks
