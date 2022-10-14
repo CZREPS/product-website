@@ -4,14 +4,16 @@
     }
 
 
-.login-container {
+.login-container,
+.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
 }
 
-.login-window {
+.login-window,
+.register-window {
     width: 550px;
     height: 600px;
     background-color: rgb(240, 240, 240);
@@ -20,10 +22,10 @@
     margin: 0 50px;
 }
 
-.login-window h1 {
+.header-text {
     font-size: 3rem;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     font-family: OpenSans;
     font-weight: 700;
     text-align: center;
@@ -102,7 +104,7 @@ ul {
 }
 
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 580px) {
     .input,
     ul {
         width: 240px;
@@ -110,15 +112,36 @@ ul {
     .input {
         font-size: 13px;
     }
-    .login-window h1 {
+    .header-text {
         font-size: 1.7rem;
         margin-bottom: 40px;
     }
-    .login-window {
+    .login-window,
+    .register-window {
         height: 470px;
         margin: 0 30px;
     }
-    .login-container {
+    .login-container,
+    .register-container {
         margin-top: 70px;
+    }
+}
+
+
+
+
+/*REGISTER*/
+
+.register-container {
+    margin-top: 70px;
+}
+
+.register-window {
+    height: 670px;
+}
+
+@media screen and (max-width: 580px) {
+    .register-window {
+        height: 620px;
     }
 }
