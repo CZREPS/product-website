@@ -4,13 +4,12 @@
 - [ ] Lepší formát textu u jednotlivých bot
 - [X] Napsat texty u HIGH bot
 - [X] Barvy Textu pro Highe
-- [ ] *Roman*
 ##### DUNK
 - [x] Dunk blobové
 - [x] Dunk Main stránka
 - [ ] Text a barvy textu pro Dunks
 - [ ] Názvy bot DUNK
-- [ ] Přidat javascript na mobile do tenisky.html
+- [X] Přidat javascript na mobile do tenisky.html
 
 
 
