@@ -13,7 +13,8 @@
 }
 
 .login-window,
-.register-window {
+.register-window,
+.forgot-window {
     width: 550px;
     height: 600px;
     background-color: rgb(240, 240, 240);
@@ -117,7 +118,8 @@ ul {
         margin-bottom: 40px;
     }
     .login-window,
-    .register-window {
+    .register-window,
+    .forgot-window {
         height: 470px;
         margin: 0 30px;
     }
@@ -143,5 +145,42 @@ ul {
 @media screen and (max-width: 580px) {
     .register-window {
         height: 620px;
+    }
+}
+
+
+/*PASSWORD FORGOT*/
+
+.forgot-window {
+    height: 360px;
+}
+
+.header-text__forgot {
+    margin-bottom: 0;
+}
+
+.forgot-text {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+.forgot__button {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    .forgot-window {
+        height: 330px;
+    }
+    .forgot-text {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .forgot-window {
+        height: 350px;
     }
 }
